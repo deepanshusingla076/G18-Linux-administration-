@@ -16,3 +16,19 @@ Create the subdirectories:
 •	mkdir Command: The mkdir command is used to create directories
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/1ee207380ab805317148f211a74424476c286831/Screenshot%202025-01-21%20093527.png)
 
+#Lab 3
+
+Self Expansion
+1)	History Expansion
+!!  Show last command
+!   Execute a Specific Command
+
+2)	Tidle Expansion (~)
+Shortcut to denote a user's home directory.
+
+3)	Brace Expansion
+Allows to generate a series based on patterns enclosed in curly braces {}.
+
+o	Sequence Expansion : Generates sequences of numbers or letters in a concise manner.
+
+
