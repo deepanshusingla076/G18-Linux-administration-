@@ -51,6 +51,7 @@ sudo apt install gedit : use to install gedit.
 man gedit: Displays the manual page for the gedit text editor
 
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/81f67d39f6950b3f9032184791f81443a137eb43/Screenshot%202025-01-21%20123238.png)
+![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/f4a93a162cf0dae1cd93217e7c854bc9a6cb8b54/Screenshot%202025-01-21%20123138.png)
 
 man -k4 ext: The man -k command is used to search the manual pages for a keyword.
 
