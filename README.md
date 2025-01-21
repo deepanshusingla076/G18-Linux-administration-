@@ -37,4 +37,11 @@ o	Sequence Expansion : Generates sequences of numbers or letters in a concise ma
 
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/03715a861e1a5a70a815d3150c263289777ee377/Screenshot%202025-01-21%20100129.png)
 
+#Lab 4
+
+o	man ls: Displays the manual page.
+o	sudo apt install gedit : use to install gedit. 
+o	man gedit: Displays the manual page for the gedit text editor
+o	man -k4 ext: The man -k command is used to search the manual pages for a keyword. Searches for "ext" in Section 4 of the manual pages.
+o	man tune2fs: Displays the manual for tune2fs
 
