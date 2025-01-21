@@ -6,6 +6,7 @@ Use the touch command to create sets of empty practice files to use during this 
 
 Create the files:
 •	touch Command: The touch command is used to create empty files.
+
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/25bdf1267df3f947c9589cefab5e5c52617d4379/Screenshot%202025-01-21%20093505.png)
 
 #Lab 2
@@ -14,6 +15,7 @@ Create three subdirectories for organizing your files, and name the subdirectori
 
 Create the subdirectories:
 •	mkdir Command: The mkdir command is used to create directories
+
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/1ee207380ab805317148f211a74424476c286831/Screenshot%202025-01-21%20093527.png)
 
 #Lab 3
@@ -30,6 +32,7 @@ Shortcut to denote a user's home directory.
 Allows to generate a series based on patterns enclosed in curly braces {}.
 
 o	Sequence Expansion : Generates sequences of numbers or letters in a concise manner.
+
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/03715a861e1a5a70a815d3150c263289777ee377/Screenshot%202025-01-21%20100055.png)
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/03715a861e1a5a70a815d3150c263289777ee377/Screenshot%202025-01-21%20100129.png)
 
