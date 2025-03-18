@@ -18,4 +18,8 @@ bash: The command bash lab8 runs the lab8 script using the Bash shell without ne
 
 2) Write shell script to perform basic mathematical calculation ----
 
+   ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/29f6e0ae68facf8f20a851b48ec703bc4c242442/Screenshot%202025-03-18%20154111.png)
+
+   ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/29f6e0ae68facf8f20a851b48ec703bc4c242442/Screenshot%202025-03-18%20154059.png)
+
    
