@@ -100,6 +100,8 @@ Displays the manual for `tune2fs`, a tool used to adjust ext2/ext3/ext4 file sys
 
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/ed407bf6cb6ca9e5444a4cd7d823c249ee9f22ea/lab2-3.png) 
 
+![man ls](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/f10ee3d5e4e3d52587056cda861d119c16aa044c/lab2-9.png)
+
 ![man gedit](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/7719d5512b9f937e1e55938a8ee157e018a99b28/lab2-4.png)  
 
 ![man gedit](![man tune2fs](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/c9dc2fb631d7735aa537dd4b7f92ee9d962799d9/lab2-6.png))  
