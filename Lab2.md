@@ -1,43 +1,59 @@
-#Lab 2
+# Lab 2: Command Expansion in Linux  
 
-Self Expansion
-1)	History Expansion
-!!  Show last command
-!   Execute a Specific Command
+## 📌 Objective  
+Understand various types of command expansions in Linux, including history, tilde, and brace expansions, to enhance efficiency in the terminal.  
 
-2)	Tidle Expansion (~)
-Shortcut to denote a user's home directory.
+## 🛠️ Steps  
 
-3)	Brace Expansion
-Allows to generate a series based on patterns enclosed in curly braces {}.
+### 1️⃣ **History Expansion**  
+History expansion allows recalling and executing previous commands quickly.  
 
-Sequence Expansion : Generates sequences of numbers or letters in a concise manner.
+- **Repeat the last command:**  
+  ```bash
+  !!
+  ```
+- **Execute a specific command from history:**  
+  ```bash
+  !<command-number>
+  ```
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/03715a861e1a5a70a815d3150c263289777ee377/Screenshot%202025-01-21%20100055.png)
+### 2️⃣ **Tilde Expansion (`~`)**  
+The tilde (`~`) symbol represents a user’s home directory.  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/03715a861e1a5a70a815d3150c263289777ee377/Screenshot%202025-01-21%20100129.png)
+- **Navigate to the home directory:**  
+  ```bash
+  cd ~
+  ```
+- **Access a specific user’s home directory:**  
+  ```bash
+  cd ~username
+  ```
 
-commands
-1) man ls: Displays the manual page.
+### 3️⃣ **Brace Expansion (`{}`)**  
+Brace expansion generates sequences based on patterns enclosed in curly braces.  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/82c1c7443747627d0d818c2f4f49d7cee032d7d2/Screenshot%202025-01-21%20122511.png)
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/82c1c7443747627d0d818c2f4f49d7cee032d7d2/Screenshot%202025-01-21%20122442.png)
+#### **Sequence Expansion**  
+- **Generating a range of numbers:**  
+  ```bash
+  echo {1..5}
+  ```
+  **Output:** `1 2 3 4 5`  
 
-2) sudo apt install gedit : use to install gedit. 
+- **Generating a range of letters:**  
+  ```bash
+  echo {a..e}
+  ```
+  **Output:** `a b c d e`  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/81f67d39f6950b3f9032184791f81443a137eb43/Screenshot%202025-01-21%20123210.png)
+#### **Using Comma-Separated Values**  
+- **Expanding multiple words in a command:**  
+  ```bash
+  echo {apple,banana,grape}
+  ```
+  **Output:** `apple banana grape`  
 
-3) man gedit: Displays the manual page for the gedit text editor
+### 📸 **Screenshots for Reference**  
+![History Expansion](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/03715a861e1a5a70a815d3150c263289777ee377/Screenshot%202025-01-21%20100055.png)  
+![Brace Expansion](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/03715a861e1a5a70a815d3150c263289777ee377/Screenshot%202025-01-21%20100129.png)  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/81f67d39f6950b3f9032184791f81443a137eb43/Screenshot%202025-01-21%20123238.png)
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/f4a93a162cf0dae1cd93217e7c854bc9a6cb8b54/Screenshot%202025-01-21%20123138.png)
-
-4) man -k4 ext: The man -k command is used to search the manual pages for a keyword.
-
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/e4c25b6d08012b0a7cd5674f1b16ad0a33eb694e/Screenshot%202025-01-21%20123954.png)
-
-5) man tune2fs: Displays the manual for tune2fs
-
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/0e6b6dc9382b04b752ac82ee9849c32fb2457a82/Screenshot%202025-01-21%20100445.png)
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/e4c25b6d08012b0a7cd5674f1b16ad0a33eb694e/Screenshot%202025-01-21%20124039.png)
-
+---
