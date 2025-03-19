@@ -98,11 +98,11 @@ Displays the manual for `tune2fs`, a tool used to adjust ext2/ext3/ext4 file sys
 
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/34a552139f0cf626495ba0a0b1a8255b060919ef/lab2-2.png)  
 
+![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/ed407bf6cb6ca9e5444a4cd7d823c249ee9f22ea/lab2-3.png) 
+
 ![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/7719d5512b9f937e1e55938a8ee157e018a99b28/lab2-4.png)  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/ed407bf6cb6ca9e5444a4cd7d823c249ee9f22ea/lab2-3.png)  
+![man -k ext Screenshot](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/681c35285933673117157a071896446e5be07cdb/lab2-5.png)  
 
-![man -k ext Screenshot](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/e4c25b6d08012b0a7cd5674f1b16ad0a33eb694e/Screenshot%202025-01-21%20123954.png)  
-
-![man tune2fs Screenshot](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/e4c25b6d08012b0a7cd5674f1b16ad0a33eb694e/Screenshot%202025-01-21%20124039.png)
+![man tune2fs Screenshot](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/c9dc2fb631d7735aa537dd4b7f92ee9d962799d9/lab2-6.png)
 
