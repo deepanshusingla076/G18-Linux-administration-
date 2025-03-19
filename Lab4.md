@@ -1,24 +1,52 @@
-#Lab 4
+# Lab 4: Directory Permissions and User Access Control  
 
-man ls: Displays the manual page.
+## 📌 Objective  
+Learn how to create directories, set permissions using symbolic and octal methods, and configure `umask` for user access control.  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/82c1c7443747627d0d818c2f4f49d7cee032d7d2/Screenshot%202025-01-21%20122511.png)
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/82c1c7443747627d0d818c2f4f49d7cee032d7d2/Screenshot%202025-01-21%20122442.png)
+## 🛠️ Steps  
 
-sudo apt install gedit : use to install gedit. 
+### 1️⃣ **Create the `/home/consultants` Directory**  
+Run the following command to create the directory:  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/81f67d39f6950b3f9032184791f81443a137eb43/Screenshot%202025-01-21%20123210.png)
+```bash
+sudo mkdir /home/consultants
+```
 
-man gedit: Displays the manual page for the gedit text editor
+### 2️⃣ **Add Write Permission to the `consultants` Group**  
+Use symbolic notation to grant group write access:  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/81f67d39f6950b3f9032184791f81443a137eb43/Screenshot%202025-01-21%20123238.png)
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/f4a93a162cf0dae1cd93217e7c854bc9a6cb8b54/Screenshot%202025-01-21%20123138.png)
+```bash
+sudo chmod g+w /home/consultants
+```
 
-man -k4 ext: The man -k command is used to search the manual pages for a keyword.
+### 3️⃣ **Restrict Access for Others**  
+Use the octal method to set strict permissions (no access for others):  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/e4c25b6d08012b0a7cd5674f1b16ad0a33eb694e/Screenshot%202025-01-21%20123954.png)
+```bash
+sudo chmod 770 /home/consultants
+```
 
-man tune2fs: Displays the manual for tune2fs
+### 4️⃣ **Create a New User `operator1` and Set Password**  
+Run the following commands to add a new user and set their password:  
 
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/0e6b6dc9382b04b752ac82ee9849c32fb2457a82/Screenshot%202025-01-21%20100445.png)
-![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/e4c25b6d08012b0a7cd5674f1b16ad0a33eb694e/Screenshot%202025-01-21%20124039.png)
+```bash
+sudo useradd operator1
+sudo passwd operator1
+```
+
+### 5️⃣ **Modify User ID and Configure `umask` for `operator1`**  
+Change the user ID and set a restrictive `umask`:  
+
+```bash
+sudo usermod -u 0027 operator1
+```
+
+Verify the change by switching to `operator1` and checking the `umask`:  
+
+```bash
+su - operator1
+umask
+```
+
+## 🖼️ **Screenshot**  
+![image alt]()
