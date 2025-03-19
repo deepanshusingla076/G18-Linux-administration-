@@ -49,4 +49,4 @@ umask
 ```
 
 ## 🖼️ **Screenshot**  
-![image alt]()
+![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/6f6440fbbf80493ee289a015d668ab4c708a4b77/lab4.png)
