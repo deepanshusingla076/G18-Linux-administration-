@@ -15,7 +15,7 @@ Inside nano, you write your shell script.
 
 bash: The command bash lab8 runs the lab8 script using the Bash shell without needing execute permissions.
 
-![image alt]()
+![image alt](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/a951ac7395d11d489570d4c3b074bbc8e8773d03/lab8-3.png)
 
 
 2) Write shell script to perform basic mathematical calculation ----
