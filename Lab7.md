@@ -58,4 +58,4 @@ chmod 600 example.txt
 ---
 
 ## 🖼️ **Screenshot**  
-![Lab 7 Screenshot](lab7.png)
+![Lab 7 Screenshot](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/7b14d10faa5c37a0363c84374643f8436fcda84b/Lab7.png)
