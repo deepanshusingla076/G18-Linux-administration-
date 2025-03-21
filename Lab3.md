@@ -48,8 +48,7 @@ vim editing_final_lab.txt
 (This deletes everything after the first 4 characters.)
 
 ## 🖼️ **Screenshots**
-![Lab 3 Screenshot](lab3-1.png) 
+![Lab 3 Screenshot](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/886ac8daa1155b7308c3e18af20b512419f4eb29/Lab3-1.png)) 
 
-![Lab 3 Screenshot](lab3-2.png) 
+![Lab 3 Screenshot](https://github.com/deepanshusingla076/G18-Linux-administration-/blob/886ac8daa1155b7308c3e18af20b512419f4eb29/Lab3-2.png) 
 
-![Lab 3 Screenshot](lab3-3.png)
